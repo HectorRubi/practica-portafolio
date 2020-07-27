@@ -26,6 +26,15 @@ h1 strong {
     color: #026fff;
 }
 
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 ol, ul {
     margin: 0;
     padding: 0;
@@ -49,17 +58,35 @@ figure {
 
 .portfolio {
     background: #fafafafa;
+    padding: 20px;
 }
 
 .project {
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
+.project .project-course, 
+.project .project-date, 
+.project .project-url {
+    margin: 10px 0;
+}
+.project strong {
+    font-family: 'Fjalla', sans-serif;
+}
+.project .project-description {
+    font-size: 20px;
+}
+.project .project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 .project .project-details {
     width: 500px;
 }
