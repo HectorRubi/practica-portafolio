@@ -68,11 +68,12 @@ figure {
 }
 
 .header {
-    display: flex;
     background-color: #1d252c;
     color: white;
+    height: 70px;
+    display: flex;
     justify-content: space-between;
-    height: 90px;
+    align-items: center;
 }
 .header .menu {
     height: inherit;
