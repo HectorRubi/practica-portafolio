@@ -18,7 +18,8 @@ h1 {
     line-height: 1.5em;
     letter-spacing: -0.2px;
     color: white;
-    margin-right: 500px;
+    margin: 0;
+    /* margin-right: 500px; */
 }
 
 h1 strong {
@@ -42,6 +43,8 @@ figure {
     background-size: 500px auto;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
