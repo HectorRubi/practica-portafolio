@@ -245,6 +245,12 @@ figure {
     flex-wrap: inherit;
 }
 
+.html-video {
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; */
+}
+
 /* Desktop first */
 @media screen and (max-width: 1024px ) {
     .container {
