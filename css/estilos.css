@@ -51,6 +51,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .hero .hero-image {
     object-fit: cover;
@@ -71,6 +72,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .project .project-course, 
 .project .project-date, 
@@ -102,6 +104,7 @@ figure {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .header .menu {
     height: inherit;
@@ -128,6 +131,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer img {
     vertical-align:  middle;
@@ -182,6 +186,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social-link {
@@ -228,7 +233,7 @@ figure {
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
