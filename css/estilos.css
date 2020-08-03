@@ -334,7 +334,15 @@ figure {
 }
 
 /* Desktop first */
-@media screen and (max-width: 1024px ) {
+@media screen and (max-width: 1023px ) {
+    .event-list-title {
+        margin-left: 0;
+    }
+
+    .portfolio {
+        padding: 0;
+    }
+
     .container {
         padding: 0 1em;
     }
@@ -362,6 +370,11 @@ figure {
 }
 
 @media screen and (max-width: 767px ) {
+    h2 {
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
+
     .burger-button {
         display: block;
     }
@@ -429,7 +442,7 @@ figure {
         font-size: 1em;
     }
     .project .project-description {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .event {
@@ -448,7 +461,7 @@ figure {
 
     .project .project-details {
         width: auto;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event .event-detail {
