@@ -60,12 +60,11 @@ h6 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.5em;
     letter-spacing: -0.2px;
     color: white;
     margin: 0;
-    /* margin-right: 500px; */
 }
 
 h1 strong {
@@ -77,7 +76,7 @@ h2 {
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 40px;
 }
 
@@ -92,20 +91,24 @@ figure {
 }
 
 .hero {
-    height: 300px;
-    background-color: #1b2127;
+    height: 700px;
+    background-image: url('../images/fondo-principal.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00152e;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .hero .hero-image {
     object-fit: cover;
+    height: inherit;
 }
 
 .portfolio {
     background: #fafafafa;
-    padding: 20px;
+    padding: 40px;
 }
 
 .project {
@@ -146,7 +149,7 @@ figure {
 }
 
 .header {
-    background-color: #1d252c;
+    background-color: #172a41;
     color: white;
     height: 70px;
     display: flex;
@@ -191,6 +194,8 @@ figure {
 .event-list {
     display: flex;
     flex-wrap: wrap;
+    background-color: #000813;
+    padding: 40px 0;
 }
 .event-list-title {
     margin-left: 10px;
